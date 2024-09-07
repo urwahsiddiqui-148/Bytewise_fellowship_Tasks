@@ -1,0 +1,18 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.firebase_authentication">
+    <application
+        android:name="${applicationName}"
+        android:label="firebase_authentication"
+        android:icon="@mipmap/ic_launcher">
+    </application>
+    <activity
+        android:name=".MainActivity"
+        android:exported="true"
+        tools:replace="android:configChanges,android:theme">
+        <intent-filter>
+            <action android:name="android.intent.action.MAIN" />
+            <category android:name="android.intent.category.LAUNCHER" />
+        </intent-filter>
+    </activity>
+    <uses-permission android:name="android.permission.INTERNET"/>
+</manifest>
